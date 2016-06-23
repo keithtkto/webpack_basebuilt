@@ -55,6 +55,23 @@ exports.setupCSS = function(paths) {
   };
 }
 
+exports.babelLoader = function() {
+  return {
+    module: {
+      loaders: [
+        {
+          test: /\.js$/,
+          exclude: /(node_modules|bower_components)/,
+          loader: 'babel', // 'babel-loader' is also a legal name to reference
+          query: {
+            presets: ['react','es2015']
+          }
+        }
+      ]
+    }
+  }
+}
+
 exports.minify = function() {
   return {
     plugins: [

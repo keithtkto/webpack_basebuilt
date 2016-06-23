@@ -1,2 +1,0 @@
-webpackJsonp([0,2],{0:function(e,n,o){o(1);var t=o(34);document.body.appendChild(t())},34:function(e,n){e.exports=function(){var e=document.createElement("h1");return e.className="pure-button",e.innerHTML="Cover Nori in lambswool -Yeezy",e}}});
-//# sourceMappingURL=app.809b15fff790d2a2380e.js.map
